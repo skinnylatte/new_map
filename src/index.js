@@ -8,7 +8,7 @@ let map;
 
 async function init() {
     const sites = await import("../data/sites.json");
-    const neighborhoods = await import("../data/neighborhoods.json");
+    const neighborhoods = await import("../data/output.json");
     const style = map.getStyle();
 
     style.sources = {
