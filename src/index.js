@@ -6,7 +6,9 @@ import custom from "./custom-style.json";
 
 let map;
 
-function init() {
+async function init() {
+    const sites = await import("../data/sites.json");
+    const neighborhoods = await import("../data/neighborhoods.json");
     const style = map.getStyle();
 
     style.sources = {
@@ -15,6 +17,9 @@ function init() {
     };
     style.layers.push(...custom.layers);
     map.setStyle(style);
+
+    map.getSource("sites").setData(sites);
+    map.getSource("neighborhoods").setData(neighborhoods);
 }
 
 mapboxgl.accessToken = settings.accessToken;
