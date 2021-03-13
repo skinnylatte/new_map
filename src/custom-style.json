@@ -1,5 +1,33 @@
 {
-    "sources": {},
-    "layers": []
+    "sources": {
+        "sites": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": []
+            }
+        },
+        "neighborhoods": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": []
+            }
+        }
+    },
+    "layers": [
+        {
+            "id": "sites-circles",
+            "type": "circle",
+            "source": "sites"
+        },
+        {
+            "id": "neighborhoods-fill",
+            "type": "fill",
+            "source": "neighborhoods",
+            "paint": {
+                "fill-opacity": 0.2
+            }
+        }
+    ]
 }
-
