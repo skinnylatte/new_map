@@ -1,0 +1,12 @@
+{
+    "container": "map",
+<<<<<<< HEAD
+    "accessToken": "pk.eyJ1IjoiYWRqdDg4MTgiLCJhIjoiY2tseHo3NjBsMHhkYTJ1cDhrY3JkcTdzZCJ9.ZdGr9B1RQFPG0tfuTIfUFg",
+    "style": "mapbox://styles/adjt8818/ckly5i9vu59jo17p5ft3085ic",
+    "minZoom": "12",
+    "logoPosition": "top-left"
+=======
+    "accessToken": "pk.eyJ1Ijoicmdhc3RvbiIsImEiOiJJYTdoRWNJIn0.MN6DrT07IEKXadCU8xpUMg",
+    "style": "mapbox://styles/rgaston/ckly5hs6v0who17nzke2tv6fh"
+>>>>>>> upstream/master
+}
